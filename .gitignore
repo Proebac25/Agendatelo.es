@@ -1,0 +1,45 @@
+# Node / Frontend
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+dist/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Java / Backend
+target/
+*.class
+*.jar
+*.war
+*.ear
+.idea/
+*.iml
+*.iws
+*.ipr
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Database
+*.sql.bak
+database/supabase/*.json
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Vercel / Deploy
+.vercel
+.netlify
+
+# Docs temporales
+docs/*.tmp
